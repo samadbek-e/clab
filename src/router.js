@@ -2,9 +2,9 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import Courses from "./pages/courses";
 import Home from './pages/home'
 const router = createBrowserRouter(
-    createRoutesFromElements( // try without it
+    createRoutesFromElements(
         <Route path='/' element={<Home />}>
-            <Route path="courses" element={<Courses />} />
+            <Route path="courses" element={<Courses />} /> 
         </Route>
     )
 )
