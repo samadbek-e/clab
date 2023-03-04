@@ -1,0 +1,25 @@
+.videoContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 150px 0;
+}
+.youtubeframe{
+    border-radius: 10px;
+}
+.headerVideo{
+    gap: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.headerVideo h1{
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: #293F57;
+}
+.headerVideo p{
+    border-left: 3px dashed #293F57;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-image-repeat: round;
+}

@@ -4,7 +4,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat';
 }
 body{
-  background-color: #CFCFCF;
+  padding: 20px 0;
+}
+button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+img{
+  user-select: none;
 }

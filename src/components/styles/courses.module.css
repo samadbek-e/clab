@@ -1,0 +1,14 @@
+.coursesList{
+    background-color: #191919;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.coursesListHeader span{
+    color: #4D83BE;
+}
+.coursesCards{
+    display: grid;
+    grid-auto-columns: max-content;
+}

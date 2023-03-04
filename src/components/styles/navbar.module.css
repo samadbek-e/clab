@@ -1,8 +1,6 @@
-
 :root{
     --dark-text-color: #222;
     --light-text-color: #fff
-
 }
 
 .container{
@@ -11,7 +9,7 @@
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 80px;
+    padding: 30px 80px;
 }
 .logo{
     width: 50px;
@@ -27,8 +25,9 @@
     border-radius: 6px;
     font-size: 16px;
     letter-spacing: 1px;
-    padding: 10px 20px;
+    padding: 12px 20px;
     transition: all .7s;
+    letter-spacing: 2px;
 }
 .nav_signup_btn{
     border: transparent;
@@ -39,14 +38,4 @@
     color: var(--black-text-color);
     border: 1px solid #222;
     background-color: transparent;
-}
-.nav_login_btn:hover{
-    background-color: #293F57;
-    border: 2px solid #293F57;
-    color: #fff;
-}
-.nav_signup_btn:hover{
-    background: #cfcfcf;
-    color: var(--dark-text-color);
-    outline: 1px solid #222;
 }

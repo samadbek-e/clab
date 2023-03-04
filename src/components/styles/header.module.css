@@ -1,0 +1,73 @@
+.headerContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 0 25% ;
+    margin-top: 100px;
+    gap: 50px;
+}
+.headerContainer > p{
+    font-size: 18px;
+    opacity: .6;
+    font-weight: 800;
+}
+.mainHeader{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.mainHeader h1{
+    font-weight: 500;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+.mainHeader h1:nth-child(2){
+    color: #293F57;
+    letter-spacing: 3px;
+    font-weight: 900;
+
+}
+.searchBox{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
+    transition: all .7s;
+}
+.searchBox:focus-within{
+    box-shadow: 4px 5px 20px 10px rgba(0, 102, 255, 0.2);
+
+}
+.inputBox{
+    display: flex;
+    padding: 8px 10px;
+    gap: 20px;
+    pointer-events: none;
+}
+.inputBox img{
+    margin-left: 10px;
+}
+
+.inputBox input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    transition: all 1s;
+}
+.inputBox button{
+    background-color: #293F57;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.inputBox input{
+    pointer-events: auto;
+}
+.inputBox input:hover .mainHeader{
+    transform: scale(1.2);
+}
